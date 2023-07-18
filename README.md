@@ -1,6 +1,6 @@
 # Game Engine Architecture
 
-This repository contains my work for the CMP5363 Game Engine Architecture module. 
+This repository is a continuation of a game engine that was submitted for a university module.
 
 <br>
 
@@ -57,4 +57,4 @@ This repository contains my work for the CMP5363 Game Engine Architecture module
 
 ***
 
-Rowan Noble - rowan.noble@mail.bcu.ac.uk
+Rowan Noble - rowan.noble18@gmail.com
