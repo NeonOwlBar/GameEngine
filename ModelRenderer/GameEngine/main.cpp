@@ -4,8 +4,22 @@
 
 using namespace GE;
 
+// Preprocessor directive to only have console appear when in debug config
+// 
+// To undo this, only use int main() (remove int WinMain(), along with preprocessor directives), and in project properties do the following:
+//      - in Release config
+//      - Linker > System > Subsystem
+//      - set Subsystem to Console
+// 
+//      - This is set to Windows inside Release config to remove console.
+
 // Program starts
-int main(int argc, char *argv[]) {
+#ifdef _DEBUG
+int main(int argc, char *argv[])
+#else
+int WinMain(int argc, char* argv[])
+#endif // DEBUG
+{
 	// Create a game engine object
 	GameEngine ge;
 	
