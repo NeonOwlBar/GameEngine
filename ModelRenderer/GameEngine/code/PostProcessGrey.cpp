@@ -96,8 +96,8 @@ bool GE::PostProcessGreyscale::init()
 	glBufferData(GL_ARRAY_BUFFER, sizeof(quad), quad, GL_STATIC_DRAW);
 
 	// Create a program for the greyscale shaders
-	std::string v_shader_source = loadShaderSourceCode("grey.vert");
-	std::string f_shader_source = loadShaderSourceCode("grey.frag");
+	std::string v_shader_source = loadShaderSourceCode("code/grey.vert");
+	std::string f_shader_source = loadShaderSourceCode("code/grey.frag");
 
 	// Due to the unique way OpenGL handles shader source, OpenGL expects
 	// an array of strings.  In this case, create an array of the

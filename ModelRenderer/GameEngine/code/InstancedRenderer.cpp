@@ -16,8 +16,8 @@ namespace GE {
 	void InstancedRenderer::init()
 	{
 		// Load shader source from files.  Need the new ShaderUtils files
-		std::string v_shader_source = loadShaderSourceCode("instance.vert");
-		std::string f_shader_source = loadShaderSourceCode("instance.frag");
+		std::string v_shader_source = loadShaderSourceCode("code/instance.vert");
+		std::string f_shader_source = loadShaderSourceCode("code/instance.frag");
 
 		// Due to the unique way OpenGL handles shader source, OpenGL expects
 		// an array of strings.  In this case, create an array of the

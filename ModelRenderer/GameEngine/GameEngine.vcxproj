@@ -145,48 +145,48 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Billboard.h" />
-    <ClInclude Include="BillboardRenderer.h" />
-    <ClInclude Include="Camera.h" />
-    <ClInclude Include="CubeRenderer.h" />
-    <ClInclude Include="FontRenderer.h" />
-    <ClInclude Include="Framebuffer.h" />
-    <ClInclude Include="GameEngine.h" />
-    <ClInclude Include="GUIRenderer.h" />
-    <ClInclude Include="InstancedRenderer.h" />
-    <ClInclude Include="Model.h" />
-    <ClInclude Include="ModelRenderer.h" />
-    <ClInclude Include="PostProcessGrey.h" />
-    <ClInclude Include="ShaderUtils.h" />
-    <ClInclude Include="ShadowMap.h" />
-    <ClInclude Include="SkyboxRenderer.h" />
-    <ClInclude Include="Terrain.h" />
-    <ClInclude Include="Texture.h" />
-    <ClInclude Include="Utils.h" />
+    <ClInclude Include="code\Billboard.h" />
+    <ClInclude Include="code\BillboardRenderer.h" />
+    <ClInclude Include="code\Camera.h" />
+    <ClInclude Include="code\CubeRenderer.h" />
+    <ClInclude Include="code\FontRenderer.h" />
+    <ClInclude Include="code\Framebuffer.h" />
+    <ClInclude Include="code\GameEngine.h" />
+    <ClInclude Include="code\GUIRenderer.h" />
+    <ClInclude Include="code\InstancedRenderer.h" />
+    <ClInclude Include="code\Model.h" />
+    <ClInclude Include="code\ModelRenderer.h" />
+    <ClInclude Include="code\PostProcessGrey.h" />
+    <ClInclude Include="code\ShaderUtils.h" />
+    <ClInclude Include="code\ShadowMap.h" />
+    <ClInclude Include="code\SkyboxRenderer.h" />
+    <ClInclude Include="code\Terrain.h" />
+    <ClInclude Include="code\Texture.h" />
+    <ClInclude Include="code\Utils.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="BillboardRenderer.cpp" />
-    <ClCompile Include="CubeRenderer.cpp" />
-    <ClCompile Include="FontRenderer.cpp" />
-    <ClCompile Include="Framebuffer.cpp" />
-    <ClCompile Include="GameEngine.cpp" />
-    <ClCompile Include="GUIRenderer.cpp" />
-    <ClCompile Include="InstancedRenderer.cpp" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="Model.cpp" />
-    <ClCompile Include="ModelRenderer.cpp" />
-    <ClCompile Include="PostProcessGrey.cpp" />
-    <ClCompile Include="ShaderUtils.cpp" />
-    <ClCompile Include="ShadowMap.cpp" />
-    <ClCompile Include="SkyboxRenderer.cpp" />
-    <ClCompile Include="Terrain.cpp" />
-    <ClCompile Include="Texture.cpp" />
+    <ClCompile Include="code\BillboardRenderer.cpp" />
+    <ClCompile Include="code\CubeRenderer.cpp" />
+    <ClCompile Include="code\FontRenderer.cpp" />
+    <ClCompile Include="code\Framebuffer.cpp" />
+    <ClCompile Include="code\GameEngine.cpp" />
+    <ClCompile Include="code\GUIRenderer.cpp" />
+    <ClCompile Include="code\InstancedRenderer.cpp" />
+    <ClCompile Include="code\main.cpp" />
+    <ClCompile Include="code\Model.cpp" />
+    <ClCompile Include="code\ModelRenderer.cpp" />
+    <ClCompile Include="code\PostProcessGrey.cpp" />
+    <ClCompile Include="code\ShaderUtils.cpp" />
+    <ClCompile Include="code\ShadowMap.cpp" />
+    <ClCompile Include="code\SkyboxRenderer.cpp" />
+    <ClCompile Include="code\Terrain.cpp" />
+    <ClCompile Include="code\Texture.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="grey.frag" />
-    <None Include="grey.vert" />
-    <None Include="instance.frag" />
-    <None Include="instance.vert" />
+    <None Include="code\grey.frag" />
+    <None Include="code\grey.vert" />
+    <None Include="code\instance.frag" />
+    <None Include="code\instance.vert" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

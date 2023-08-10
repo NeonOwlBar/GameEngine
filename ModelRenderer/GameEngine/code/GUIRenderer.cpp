@@ -54,8 +54,8 @@ namespace GE {
 		// Load shader source from files.  Need the new ShaderUtils files off moodle
 		// Text shaders are different to regular shaders because they only
 		// transform based on projection
-		std::string v_shader_source = loadShaderSourceCode("GUI.vert");
-		std::string f_shader_source = loadShaderSourceCode("GUI.frag");
+		std::string v_shader_source = loadShaderSourceCode("code/GUI.vert");
+		std::string f_shader_source = loadShaderSourceCode("code/GUI.frag");
 
 		// Rest of code is similar to model shader code
 		const GLchar* v_source_array[] = { v_shader_source.c_str() };
