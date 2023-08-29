@@ -49,7 +49,7 @@
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
     <PlatformToolset>v142</PlatformToolset>
-    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
@@ -80,11 +80,13 @@
     <LinkIncremental>true</LinkIncremental>
     <IncludePath>..\externals\assimp\include;..\externals\glew\include;..\externals\SDL2\include;..\externals\glm-master;..\externals\SDL2_image\include;..\externals\SDL2_ttf\include;$(IncludePath)</IncludePath>
     <LibraryPath>..\externals\assimp\lib\x64;..\externals\glew\lib\Release\x64;..\externals\SDL2\lib\x64;..\externals\SDL2_image\lib\x64;..\externals\SDL2_ttf\lib\x64;$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)\bin\$(Platform)\$(Configuration)\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
     <IncludePath>..\externals\assimp\include;..\externals\glew\include;..\externals\SDL2\include;..\externals\glm-master;..\externals\SDL2_image\include;..\externals\SDL2_ttf\include;$(IncludePath)</IncludePath>
     <LibraryPath>..\externals\assimp\lib\x64;..\externals\glew\lib\Release\x64;..\externals\SDL2\lib\x64;..\externals\SDL2_image\lib\x64;..\externals\SDL2_ttf\lib\x64;$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)\bin\$(Platform)\$(Configuration)\</OutDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>

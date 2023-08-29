@@ -2,7 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>D:\GitHub\GameEngine\ModelRenderer\x64\Debug\GameEngine.exe</FullPath>
+      <FullPath>D:\GitHub\GameEngine\ModelRenderer\bin\x64\Debug\GameEngine.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />
